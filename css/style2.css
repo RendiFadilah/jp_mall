@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #0062cc, #1061b8);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    text-align: left;
+}
+
+.container{
+    width: 100%;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.container h2{
+    background: #0062cc;
+    color: #fff;
+    width: 209px;
+    font-size: 24px;
+    padding: 3px;
+    height: 35px;
+}
+.container h2::after{
+    content: '';
+        border-top: 35px solid #0062cc;
+        border-right: 40px solid transparent;
+        position: relative;
+        left: 48px;
+        top: 34px;
+}
+
+.row{
+    margin-top: 30px;
+}
+.gambar{
+    width: 100%;
+}
+.product-bottom .fa{
+    color: #237ddd;
+    font-size: 10px;
+}
+.product-bottom h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.overlay{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+.product-top:hover .overlay{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+.overlay .fa{
+    cursor: pointer;
+    background-color: #0062cc;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 10%;
+}
+.overlay .btn-secondary{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}

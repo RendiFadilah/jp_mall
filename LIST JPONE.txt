@@ -1,0 +1,28 @@
+JPONE RETAIL
+1.Rino - JP ONE GROCEERS
+2.Rendi - JP ONE BOOKSTORE
+3.Gustam - JP ONE MULTI MART
+
+
+JPONE SERVICE
+1.RANGGA
+2.JAKI
+MICE
+TOUR AND TRAVEL
+
+JPONE FINANCE
+1.Reja 
+2.Zulfikar
+3.Taufan
+//Koperasi Serba Usaha
+//Finance SPP
+
+JPONE EDUPRENEUR
+1.Haikal
+2.Reyhan
+3.Rifky
+//BootCamp EDUPRENEUR
+
+
+
+KATEGORI
